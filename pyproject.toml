@@ -1,0 +1,18 @@
+[tool.poetry]
+package-mode = false
+description = "An Expert System for analyzing a Genshin Impact party, listing it's stengths and weaknesses."
+authors = ["IamRedCap <maxmimo2001@gmail.com>", "Thinkalicious <roberto.and.boberto@gmail.com>"]
+license = "gpl-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+experta = {git = "https://github.com/Thinkalicious/experta.git", rev = "develop"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
