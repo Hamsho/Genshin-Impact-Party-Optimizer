@@ -12,6 +12,10 @@ experta = {git = "https://github.com/Thinkalicious/experta.git", rev = "develop"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
+jupyterlab = "^4.2.2"
+jupyterlab-execute-time = "^3.1.2"
+jupyterlab-git = "^0.50.1"
+python-lsp-server = "^1.11.0"
 
 [build-system]
 requires = ["poetry-core"]
