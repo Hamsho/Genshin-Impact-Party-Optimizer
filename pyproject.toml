@@ -10,6 +10,7 @@ python = "^3.11"
 experta = {git = "https://github.com/Thinkalicious/experta.git", rev = "develop"}
 pandas = "^2.2.2"
 numpy = "^1.26.4"
+gradio = "^4.36.1"
 
 
 [tool.poetry.group.dev.dependencies]
